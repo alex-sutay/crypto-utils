@@ -25,3 +25,8 @@ Used for simulating some internal AES functions.
 This file has some very basic LFSR functionality.
 The `lfsr` function actually has a set of all of the possible values from an LFSR with given prefixes and starting point.
 The point being to see if it was a complete set I believe.
+
+## DSA.py
+Basic implementation of the DSA algorithm.
+Given all the variables, it will do the math to calculate or verify a signature.
+It doesn't generate a key or do the hashing of a message, it's just the math.
